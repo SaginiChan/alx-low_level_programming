@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _strspn - gets length
- * @s: value
- * @accept: value
- *
- * Return: number of bytes in the initial segment
+ * _strspn - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -27,3 +26,6 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (n);
 }
+
+
+
